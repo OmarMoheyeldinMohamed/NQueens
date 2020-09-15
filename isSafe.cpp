@@ -1,4 +1,6 @@
 #include"isSafe.h"
+#include "print.h"
+int grid[10][10];
 
 bool isSafe(int col, int row, int n) {
   //check for same column
