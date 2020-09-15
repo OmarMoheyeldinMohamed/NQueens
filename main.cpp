@@ -1,11 +1,8 @@
 #include "isSafe.h"
+#include "Print.h"
 #include "solve.h"
-#include "print.h"
-
 int main()
 {
-  ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
         int n;
         cout<<"Enter the number of queen"<<endl;
         cin >> n;
